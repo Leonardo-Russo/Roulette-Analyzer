@@ -1,27 +1,34 @@
-### noBet
+# Online Roulette Analysis Bot
 
-<pre>
-Out of the night that covers me,
-  Black as the pit from pole to pole,
-I thank whatever gods may be
-  For my unconquerable soul.
+This project is an example of the application of Python scripting, data analysis, and bot creation to analyze online roulette tables. This script continually analyzes data from a number of online roulette tables, and once specific criteria are met, it interacts with the game.
 
-In the fell clutch of circumstance
-  I have not winced nor cried aloud.
-Under the bludgeonings of chance
-  My head is bloody, but unbowed.
+**Please note** that the focus of this project is the technical challenges of automating the process and interpreting the data, not encouraging gambling or cheating. The aim is to illustrate how software can be used to automate data collection and interpretation in real-world scenarios. 
 
-Beyond this place of wrath and tears
-  Looms but the Horror of the shade,
-And yet the menace of the years
-  Finds and shall find me unafraid.
+## Features
 
-It matters not how strait the gate,
-  How charged with punishments the scroll,
-I am the master of my fate,
-  I am the captain of my soul.
-</pre>
+- **Data Collection:** The script scrapes data from multiple online roulette tables. 
+- **Data Analysis:** Analysis is conducted to identify tables that meet specific criteria.
+- **Automated Interaction:** Once the criteria are met, the script can automatically place a bet on one of the three dozens.
+- **Telegram Bot Interface:** A Telegram bot is used as an interface for user interaction. The bot allows users to easily check the status and modify options. It also reports all the numbers extracted from all tables.
 
+## Technologies Used
+
+- Python: The main programming language used in this project.
+- Python Libraries: Libraries such as BeautifulSoup for web scraping, and python-telegram-bot for the Telegram bot interface.
+- Telegram: Platform used for the bot interface.
+  
+## Future Improvements
+
+Future updates may focus on refining the data analysis aspect of the script, or expanding the functionality of the Telegram bot interface.
+
+---
+
+## Disclaimer
+
+This project is created for educational and demonstration purposes only. It should not be used for any illegal activities or any activities against the terms of service of any websites it interacts with. The creator of this project is not responsible for any misuse or any potential losses.
+
+---
+### Bidding Scheme
 
 | n° | Bid | Loss | Win | Profit |
 | --- | --- | --- | --- | --- |
