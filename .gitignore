@@ -1,0 +1,9 @@
+desktop.ini
+**/desktop.ini
+*/desktop.ini
+./**/desktop.ini
+*/**/desktop.ini
+**/**/desktop.ini
+**/*.ini
+TestBot.bat
+BotLauncher.bat
